@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title> SD Commande</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shorcut icon" type="image/x-icon" href="Images/d.png"/>
+
+</head>
+
+<body>
+	
+    <script>
+        var annonce ="Remplissez correctement le formulaire ci-dessous puis envoyez, une fois terminé veuillez retourner sur la page principal. Les données entrées ne seront pas prises en compte :) alors jouez le jeu .Ceci est une page teste! ";
+        alert(annonce);
+    </script>
+
+	 <header>
+		<img src="images/gg.png">
+		<img class="B" src="images/zz.png" style="width: 175px; height: 190px;">
+		<p class="entete"> Swagg and</p>
+		<p class="entete2"> Design</p>
+		 <nav>
+			<ul>
+				<a href="index.html"><li>Menu</li></a>
+			 </ul> <ul>
+				<a href="arriva.html"><li>Arrivage</li></a>
+			 </ul><ul>
+				<a href="arrivage.html"><li>Mode Actuel</li></a>
+			</ul><ul>
+				<a href="sd.html"><li>SD store</li></a>
+			</ul><ul>
+				<a href="comande.html"><li>Commande?</li></a>
+			</ul>
+		 </nav>
+     </header>
+  
+ <form method="POST" action="">
+
+     <fieldset>
+        
+        <legend>Vos coordonnées</legend> 
+       
+        <div>
+           <label for="nom">Nom</label>  <br>
+           <input type="text" name="NOM" id="NOM" required ><br><br>
+        </div>
+       
+       
+        <div>
+           <label for="prenom">Prénom</label>  <br>
+           <input type="text" name="prenom" id="prenom" required><br><br>
+        </div>
+       
+        <div>
+            <label for="nom">E-mail</label>  <br>
+            <input type="email" name="mail" id="mail" required placeholder="Blessing@gmail.com"><br><br>
+        </div>
+
+        <label>Sexe</label><br><br>
+
+        <div>
+            <label for="Masculin">Masculin</label> <br> 
+            <input type="radio" name="sexe" id="Masculin" checked>
+         </div>
+
+         <div>
+            <label for="Feminin">Feminin</label>  <br>
+            <input type="radio" name="sexe" id="Feminin" >
+         </div><br>
+   
+
+       <p><b> Couleurs de préference: </b></p>
+
+       <input type="radio" name="choose" value="Belge"checked>  Belge
+       <br>
+       <input type="radio" name="choose" value="Noir"checked>  Noir
+       <br>
+       <input type="radio" name="choose" value="Rouge "checked> Rouge
+       <br>
+       <input type="radio" name="choose" value="Bleu"checked>   Bleu
+       <br>
+       <input type="radio" name="choose" value="Blanc"checked> Blanc
+ 
+       <br><br>
+        Que recherchez-vous? : <br>
+         <input type="text" name="Quel marque recherchez-vous? :"><br><br>
+       
+
+        La taille:<br>
+         <input type="text" name="la taille"><br><br>
+       
+  
+         numéro compte bancaire: <br>
+         <input type="password" name="psw"><br><br>
+ 
+         <p><b>Vous trouvez nos services:</b></p>
+ 
+        <input type="checkbox"name="mobile" value="Agréable"> Agréable
+        <br>
+        <input type="checkbox"name="mobile" value="Satisfaisant">Satisfaisant
+        <br>
+        <input type="checkbox"name="mobile" value="Médiocre">Médiocre
+        <br>
+        <input type="checkbox" name="mobile" value="R.A.S">R.A.S
+ 
+        <br><br>
+ 
+         Mettez la date:<br>
+        <input type="date" name="bday" min="0000-01-02"><br><br>
+
+        <input type="submit" value="Envoyer !">
+
+
+   </fieldset>
+
+</form>

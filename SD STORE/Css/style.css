@@ -1,0 +1,793 @@
+body{
+	background-color: rgba(1, 2, 3, 0.87);
+}
+
+
+
+/* ici nous avons le contenu de l'entete de la page*/
+
+
+
+
+header img{
+	width: 155px;
+	height: auto;
+	margin-left: 100px;
+	position: absolute;
+	top: 7px;
+}
+header img.B{
+	height: 190px;
+	margin-left: 1050px;
+	position: absolute;
+}
+header{
+	background: white;
+	width: 1335px;
+	height: 200px;
+	position: fixed;
+	margin-top: -7px;
+	z-index: 5;
+	
+
+	
+
+
+}
+
+header nav ul{
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	padding:10px 10px;
+
+	
+}
+ nav a{
+	text-decoration:none;
+	font-size: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(0, 0, 0);
+	}
+
+nav a:hover{
+   text-decoration: underline;
+   font-style: italic;
+   transition-duration: 0.2s;
+   
+   }
+header nav{
+	float: right;
+	margin-right: 10px;
+	position: absolute;
+	top: 107px;
+	left: 245px;
+}
+header nav ul li{
+	
+	padding: 10px;
+	background: rgba(255, 0, 0, 0.932);
+
+}
+header nav ul li:hover{
+	background: rgb(0, 0, 0);
+	transition-duration: 0.5s;
+	border-radius: 100px;
+	
+}
+nav a:hover{
+	color: gold;
+}
+header p.entete{
+	font-size: 100px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:rgba(255, 0, 0, 0.932);
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top:-97px;
+	left: 250px;
+}
+header p.entete2{
+	font-size: 100px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:rgb(0, 0, 0);
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top:-15px;
+	left: 750px;
+	
+}
+
+
+
+/* ici se termine l'entete de notre page*/
+
+/* Et c'est dans le meme contexte que commence la partie milieu de notre page*/
+
+.diaporama{
+	width: 200px;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	top: 249px;
+	margin-left: 40px;
+}
+ figure{
+	position: absolute;
+	width: 580%;
+	-webkit-animation: 10s sliderleft infinite;
+	
+}
+
+.diaporama figure img{
+	float: right;
+	width: 200%;
+	height: 300px;
+	
+}
+@-webkit-keyframes sliderleft{
+	0% {left: 0%;}
+	20% {left: 0%;}
+	25% {left: -100%;}
+	45% {left: -100%;}
+	50% {left: -200%;}
+	70% {left: -200%;}
+	75% {left: -300%;}
+	95% {left: -300%;}
+	100% {left: -400%;}
+}
+
+
+
+
+.uno{
+	position: absolute;
+	top: 250px;
+	text-align: left;
+	color: rgb(249, 249, 250);
+	left: 300px;
+}
+
+.dos{
+	position: absolute;
+	top: 650px;
+	text-align: left;
+	color: rgb(249, 249, 250);
+	left: 300px;
+}
+
+.tres{
+	position: absolute;
+	top: 1050px;
+	text-align: left;
+	color: rgb(249, 249, 250);
+	left: 300px;
+}
+
+.cuatro{
+	position: absolute;
+	top: 1450px;
+	text-align: left;
+	color: rgb(249, 249, 250);
+	left: 300px;
+}
+
+.cinco{
+	position: absolute;
+	top: 1850px;
+	text-align: left;
+	color: rgb(249, 249, 250);
+	left: 300px;
+}
+.pub{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 40px;
+
+}
+.pub:hover{
+	transform: scale(1.1) rotate(360deg);
+}
+
+.button{
+	background-color: rgb(255, 0, 0);
+	text-decoration: none;
+	position: absolute;
+	top: 210px;
+	left: 60px;
+	color: white;
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.button:hover{
+	background: rgb(251, 251, 252);
+	border-radius: 50px;	
+	color: rgb(0, 0, 0);
+	transition-duration: 2s;
+
+}
+footer{
+	background-color: white;
+	position: absolute;
+	color: black;
+	width: 99%;
+	height: 20%;
+	top:350%;
+
+
+}
+
+.foot{
+	text-align: center;
+	
+}
+
+/* ici se termine le corps et le footer de notre page*/
+
+
+
+
+/* Css de la page Mode actuel*/
+
+
+.arrive{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+	bottom: -400px;
+	padding: 5px;
+
+}
+.mot{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 40%;
+	left: 18%;
+}
+/* Css de la page Mode actuel FIN*/ 
+
+
+/* Css de la page ARRIVAGE*/
+
+header{
+	top:1%;
+}
+
+.fotopage2{
+	display: inline-block;
+	position: relative;
+	bottom:-300px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	margin-left: 70px;
+}
+
+.fotopage2:hover{
+	transform: scale(2.1) rotate(0deg);
+	transition-duration: 4s;
+	
+	
+}
+
+.mot2{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	bottom: -250px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: italic;
+}
+/* Css de la page ARRIVAGE FIN*/
+
+/* Css de la page SD STORE*/
+.mot3{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	bottom: -250px;
+}
+.mot4{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	bottom: -250px;
+	font-size: 40px;
+}
+/* Css de la page SD STORE FIN*/
+
+
+/* le cadeau*/
+.mot5{
+	text-align: center;
+	position: absolute;
+	font-size: 200px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	top: 100px;
+	left: 400px;
+
+}
+.mot6{
+	text-align: center;
+	position: absolute;
+	font-size: 50px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	top: 450px;
+	left: 450px;
+	color: white;
+
+}
+.mot5:hover{
+	color: gold;
+}
+/* le cadeau FIN*/
+
+ 
+
+/* FORMULAIRE*/
+
+fieldset{
+	position: absolute;
+	top: 250px;	
+	color: white;
+	padding: 100px;
+	left: 33%;
+}
+fieldset:hover{
+	background-color: rgba(199, 12, 12, 0.829);
+}
+
+input:hover{
+	color: black ;
+	border-color: rgb(32, 8, 250);
+	transition-duration: 1.5s;
+}
+/* FORMULAIRE FIN*/
+
+
+
+iframe{
+	position: absolute;
+	top: 260px;
+	right: 5px;
+	margin-left: 45px;
+}
+
+i{
+	position: absolute;
+}
+
+
+
+
+
+/* LES MEDIA QUERY DE LA PAGE*/
+
+@media screen and (max-width:900px) {
+	header{
+		width: 780px;
+	}
+	header img{
+		width: 130px;
+	}
+	header img.B{
+	display: none;
+	}
+	header p.entete{
+		font-size: 65px;
+		top: -30px;
+		left: 232px;
+	}
+	header p.entete2{
+		font-size: 65px;
+		top: -26px;
+		left: 578px;
+	}
+	iframe{
+		top: 500px;
+		left: 0%;
+		width: 202px;
+	}
+	
+	script{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+	header{
+		width: 508px;
+	}
+	header img{
+		width: 100px;
+		margin-left: 4%;
+	}
+	header img.B{
+		display: none;
+
+	}
+	header p.entete{
+		font-size: 40px;
+		top: 30px;
+		left: 150px;
+	}
+	header p.entete2{
+		font-size: 40px;
+		top: 30px;
+		left: 363px;
+	}
+	iframe{
+		display: none;
+	}
+	header nav ul{
+		
+		padding: 10px 2px;	
+	}
+
+      header nav  {
+	  left:12% ;
+	   }
+	   p.uno{
+		top: 45%;
+		left: 10px;
+		height: 209%;
+		width: 207;
+		
+	}
+	   p.dos{
+		top: 116%;
+		left: 10px;
+		
+	}
+	p.tres{
+		left: 9px;
+		top: 181%;
+	}
+	p.cuatro{
+		left: 9px;
+		top: 245%;
+	}
+	p.cinco{
+		left: 9px;
+		top: 1950px;
+	}
+	footer{
+		top: 2636px;
+	}
+
+	.mot{
+		font-size: 15px;
+	}
+	script{
+		display: none;
+	}
+	.diaporama{
+		top: 350%;
+		margin-left: 30%;
+	}
+	.fotopage2{
+		width: 150%;
+		height: 120%;
+		margin-bottom: 20px;
+		
+		margin-left: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:450px)  {
+	header{
+		width: 425px;
+		height: 250px;
+		position: absolute;
+	}
+	header nav {
+		top: -13px;
+		left: 7px;
+		
+	}
+	header nav ul{
+		display: contents;
+		
+	}
+	nav  a{
+		padding: 1%;
+	}
+	header nav ul li{
+		padding: 7%;
+	}
+	header img{
+		width: 110px;
+		top: 59px;
+		margin-left: 195px;
+
+	}
+	header img.B{
+		
+		display: none;
+	} 
+	header p.entete{
+		font-size: 25px;
+		top: 15px;
+		left: 180px;
+	}
+	header p.entete2{
+		font-size: 55px;
+		top: 115px;
+		left: 155px;
+	}
+	.diaporama{
+		display: none;
+	}
+	iframe{
+		display: none;
+	}
+	p.uno{
+		left: 8px;
+		text-align: left;
+		
+	}
+	.pub{
+		width: 278%;
+	}
+	p.dos{
+		top: 125%;
+		left: 6px;
+	}
+	p.tres{
+		left: 1%;
+		top: 202%;
+	}
+	p.cuatro{
+		left: 1%;
+		top: 275%;
+	}
+	p.cinco{
+		left: 5px;
+		top: 2303px;
+	}
+	footer{
+		top: 4800px;
+
+	}
+	form{
+     position: absolute;
+    left: -46px;
+	}
+	.mot{
+		font-size: 13px;
+	}
+	script{
+		display: none;
+	}
+}
+ 
+
+
+
+
+
+
+
+@media screen and (max-width:310px)  {
+	header{
+		width: 278px;
+		height: 250px;
+		position: absolute;
+	}
+	header nav {
+		top: -13px;
+		left: 7px;
+		
+	}
+	header nav ul{
+		display: contents;
+		
+	}
+	nav  a{
+		padding: 1%;
+	}
+	header nav ul li{
+		padding: 7%;
+	}
+	header img{
+		width: 102px;
+        top: 54px;
+        margin-left: 140px;
+
+	}
+	header img.B{
+		
+		display: none;
+	} 
+	header p.entete{
+		font-size: 21px;
+		top: 15px;
+		left: 142px;
+	}
+	header p.entete2{
+		font-size: 42px;
+		top: 115px;
+		left: 121px;
+	}
+	.diaporama{
+		display: none;
+	}
+	iframe{
+		display: none;
+	}
+	p.uno{
+		left: 8px;
+        text-align: left;
+        width: 97%;
+        height: 120%;
+        top: 45%;
+	}
+	.pub{
+		width: 281px;
+		float: none;
+        margin-right: -281px;
+        margin-bottom: 70px;
+	}
+	.button{
+		left: 103px;
+	}
+	p.dos{
+		top: 131%;
+        left: 5px;
+	}
+	p.tres{
+		left: 1%;
+        top: 210%;
+	}
+	p.cuatro{
+		left: 2%;
+        top: 285%;
+	}
+	p.cinco{
+		left: 7px;
+		top: 2403px;
+	}
+	footer{
+		top: 4800px;
+
+	}
+	form{
+     position: absolute;
+    left: -46px;
+	}
+	.mot{
+		font-size: 13px;
+	}
+	script{
+		display: none;
+	}
+}
+
+
+
+ 
+
+
+
+
+
+@media screen and (max-width:295px)  {
+	header{
+		width: 260px;
+		height: 250px;
+		position: absolute;
+		
+	}
+	header nav {
+		top: -13px;
+		left: 7px;
+		
+	}
+	header nav ul{
+		display: contents;
+		
+	}
+	nav  a{
+		padding: 1%;
+	}
+	header nav ul li{
+		padding: 7%;
+	}
+	header img{
+		width: 90px;
+		top: 59px;
+		margin-left: 140px;
+
+	}
+	header img.B{
+		
+		display: none;
+	} 
+	header p.entete{
+		font-size: 15px;
+		top: 15px;
+		left: 143px;
+	}
+	header p.entete2{
+		font-size: 42px;
+		top: 115px;
+		left: 115px;
+	}
+	.diaporama{
+		display: none;
+	}
+	iframe{
+		display: none;
+	}
+	p.uno{
+		left: 12px;
+		text-align: left;
+	}
+	p.dos{
+		top: 132%;
+		left: 8px;
+	}
+	p.tres{
+		left: 2%;
+		top: 222%;
+	}
+	p.cuatro{
+		left: 2%;
+		top: 313%;
+	}
+	p.cinco{
+		left: 6px;
+		top: 2600px;
+	}
+	footer{
+		top: 4800px;
+
+	}
+	form{
+     position: absolute;
+    left: -46px;
+	}
+	script{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
